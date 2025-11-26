@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+body {
+    background-color: #030804;
+    color: #000;
+}
+
+/* TOPO */
+.topo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.container-topo {
+    background: #faebd7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: 600;
+}
+
+.campo input {
+    height: 35px;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.sessao-principal {
+    width: 900px;
+    background:#faebd7 ;
+    display: grid;
+    grid-template-columns: 0.6fr 1.2fr 1fr;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+/* Atributos */
+.atributos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.atributo p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.atributo input {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Vida / Defesa / Velocidade */
+.vdv-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vdv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.campo-vdv label {
+    font-weight: bold;
+}
+
+.campo-vdv input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Imagem */
+.imagem-personagem img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Biografia */
+.biografia textarea {
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+}
+
+/* Secundário */
+.sessao-secundaria {
+    width: 900px;
+    margin-top: 20px;
+    background: #faebd7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.bloco-texto textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    background:#faebd7;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 16px;
+}
